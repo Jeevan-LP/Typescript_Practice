@@ -42,6 +42,18 @@ data = Software Test Engineer
 
 let num:number=10; //':number' explicitly defining a data type into the veriable - Annotation
 let num=10; //'num=10' implicitly defining a data type into the veriable - type inference 
+
+✅ const → Value never changes.
+✅ let → Value can change.
+❌ var → Avoid in modern TypeScript.
+✅ Outside class → let, const, var are allowed.
+✅ Inside methods/functions → let, const, var are allowed.
+❌ Inside class properties → Don't use let, const, or var; declare the property directly.
+
+Important
+a. in side the class we can use all access modifier
+b. in side the methods we call use let, const and var
+
 */
 
 //Premetive data type-----------------------------------------------------------------------------

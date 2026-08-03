@@ -6,6 +6,13 @@ c. initialize - initialize is possible for var, let and const
 d. redeclare - redeclare is only possible for var and let and const are not possible
 e. reinitialize - reinitialize is possible for var, let and const must be initialize
 f. hosting - hosting ponly for var
+
+| Concept              | Java                      | TypeScript                     |
+| -------------------- | ------------------------- | ------------------------------ |
+| Variable declaration | `String name = "Jeevan";` | `let name: string = "Jeevan";` |
+| Data type position   | Before variable name      | After variable name            |
+| String type          | `String` (capital S)      | `string` (lowercase s)         |
+| Variable keyword     | Not required              | `let`, `const`, or `var`       |
 */
 
 //var, let and const - scope------------------------------------------------------
@@ -95,7 +102,7 @@ console.log(vx);//reinitialize is possible
 //let
 let lx=30;
 lx=40;
-console.log(lx);//reinitialize is not possible
+console.log(lx);//reinitialize is possible
 
 //const
 const cx=50;
