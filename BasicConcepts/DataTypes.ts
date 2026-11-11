@@ -81,8 +81,9 @@ console.log("iscorrcet? ",iscorrcet);
 let iswrong:boolean=false;
 console.log("iswrong? ",iswrong);
 
-//d. any
+//d. any and unknown
 //in realtime/actually will not preffered 'any' data type because it breaks the type safety
+//we will preffered unknown because it is type safety
 let employee:any="Jeevan L P";
 console.log("Employee name: ", employee);
 employee=2709;
@@ -91,6 +92,15 @@ employee=true;
 console.log("Employee Good?: ", employee);
 employee=null;
 console.log("Employee native: ", employee);
+
+let employee1:unknown="Jeevan L P";
+console.log("Employee name: ", employee1);
+employee=2709;
+console.log("Employee ID: ", employee1);
+employee=true;
+console.log("Employee Good?: ", employee1);
+employee=null;
+console.log("Employee native: ", employee1);
 
 //e. void
 function greeting():void{

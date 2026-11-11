@@ -1,11 +1,34 @@
+//typescript is static type language, 
+/*
+a. Typescript will check the data type of variable at compile time.
+b. and it will check the error during compile time only, not at run time.
+c. so we need to declare the data type of variable while declaring the variable.
+let nama:string="appu";
+nama="Jeevan";
+nama=10;//error Type 'number' is not assignable to type 'string'
+*/
+
+//typescript is annotation language, 
+/*
+a. defining the data type explicitly into the variable also known as annotation
+let birth:number=27;
+*/
+
+//typescript is type inference, 
+/*
+a. if we don't assigned any data type into the variable, 
+then typescript will auto assigned the data type based on the data during compile time
+let dMonth='Sep';
+*/
+
 /*
 var, let and const
-a. scope - var is fuction scope, let and const are blocked scope
+a. scope - var is function scope, let and const are blocked scope
 b. declare - declare is possible for var, let without initialize and const must be initialize
 c. initialize - initialize is possible for var, let and const
 d. redeclare - redeclare is only possible for var and let and const are not possible
 e. reinitialize - reinitialize is possible for var, let and const must be initialize
-f. hosting - hosting ponly for var
+f. hosting - hosting only for var
 
 | Concept              | Java                      | TypeScript                     |
 | -------------------- | ------------------------- | ------------------------------ |

@@ -6,7 +6,7 @@
  * Inheritance is a mechanism where one class (child class) can inherit the properties and methods of another class (parent class). 
  * The child class can also have its own properties and methods, and it can override the methods of the parent class to provide specific implementations. 
  * This promotes code reusability and establishes a natural hierarchical relationship between classes.
- * Inheritance allows us to reuse the fucntcionity of an existing class without rewriting the code. 
+ * Inheritance allows us to reuse the functionality of an existing class without rewriting the code. 
  */
 
 // Parent class
@@ -69,7 +69,7 @@ class Thar extends Car{
 }
 // Thar class usage
 let tharCar= new Thar("Thar", 2025, "SUV", 2709, 2025);
-console.log(tharCar.carName);//from parent class
+console.log(tharCar.carName);//from child class
 tharCar.carStop();//from parent class
 tharCar.carDetails();//from parent class
 tharCar.carStart();//from child class - this will override the parent class method then it will execute the child class method  
@@ -108,7 +108,7 @@ tataCar.carManifuctureDetails();//from child class
 /*Only common properties and methods of the parent class can be accessed using the parent class reference variable, 
 but the child class specific properties and methods cannot be accessed using the parent class reference variable.*/
 let car1: Car = new Thar("XUV 700", 2024, "XUV", 2001, 2023);
-console.log(car1.carName);//from parent class
+console.log(car1.carName);//from child class
 car1.carStart();//from child class - this will override the parent class method then it will execute the child class method
 car1.carStop();//from parent class
 car1.carDetails();//from parent class 

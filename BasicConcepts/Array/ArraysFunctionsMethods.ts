@@ -1,22 +1,22 @@
-/*1. forEach() - execute a funtion once for each array elements
-a. It takes function as aparameter
+/*1. forEach() - execute a function once for each array elements
+a. It takes function as a parameter
 b. syntax: array.forEach(function(currentValue, index, array){})
 c. currentValue: The current element being processed in the array
 d. index(optional): The index of the current element being processed in the array
 e. array(optional): The array current element belongs to.
 */
 
-//Ex: get index of all fruites along with value
-let fruites:string[]=["Mango", "Pappaya", "Banana", "Graps", "Amla"];
-/*for(let i in fruites){
-    console.log(i, fruites[i]);
+//Ex: get index of all fruits along with value
+let fruits:string[]=["Mango", "Pappaya", "Banana", "Graps", "Amla"];
+/*for(let i in fruits){
+    console.log(i, fruits[i]);
 }*/
 /*function
-fruites.forEach(function(element, index){
+fruits.forEach(function(element, index){
     console.log(`${index} ${element}`);
 })*/
 //arrow function
-fruites.forEach((ele,ind)=>{
+fruits.forEach((ele,ind)=>{
     console.log(`${ind} ${ele}`);
 })
 
@@ -68,7 +68,7 @@ console.log("Sum of totalReduce: ", reduce); //15
 
 /*5. some() - checks if any elements satisfies a conditions 
 a. Syntax: array.some(function(currentValue, index, array){})
-b. Return true if at least one element passes the condtion, else false
+b. Return true if at least one element passes the condition, else false
 */
 let someNum:number[]=[-27 ,1, 2, 3, 4, 5];
 let some=someNum.some((someEle)=>{
@@ -78,7 +78,7 @@ console.log("Value found? ", some); //true
 
 /*6. every() - checks if all elements satisfies a conditions 
 a. Syntax: array.reduce(function(currentValue, index, array){})
-b. Return true if all element passes the condtion, else false
+b. Return true if all element passes the condition, else false
 */
 let everyNum:number[]=[1, 2, 3, 4, 5, 6, 7, 8, 9];
 let every=everyNum.every((evenEle)=>{

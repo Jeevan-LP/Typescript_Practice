@@ -1,4 +1,3 @@
-
 /* 
 Named function: A function that which is declared with a name
 syntax of function

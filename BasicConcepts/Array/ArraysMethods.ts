@@ -27,7 +27,7 @@ console.log("concat method: ",combined); //[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 //6. slice - extracts a section of an array
 //staring index starts from zero
-//ending indes will be exclusive ex: if 3 is ending index it will consider 2 (3-1=2)
+//ending index will be exclusive ex: if 3 is ending index it will consider 2 (3-1=2)
 let slice=iD.slice(2, 5);
 console.log("slice method: ",slice); //[2, 3, 4]
 

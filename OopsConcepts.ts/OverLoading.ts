@@ -1,6 +1,6 @@
-class Calculater{
+class Calculator{
 
-    //Constuctor overloading
+    //constructor overloading
     constructor();// default constructor without parameterized
     constructor(a:number, b:number); //parameterized constructor
     constructor(a?:number, b?:number){
@@ -23,9 +23,9 @@ class Calculater{
     }
 
 }
-//Constuctor overloading
-let calc1=new Calculater();//default constructor without parameterized
-let calc2=new Calculater(27,9);
+//constructor overloading
+let calc1=new Calculator();//default constructor without parameterized
+let calc2=new Calculator(27,9);
 
 //Method overloading
 console.log("sum of x and y:",calc1.sum(10,20));
